@@ -13,7 +13,7 @@ RUN pip install django
 RUN pip install mysql-connector
 
 # Copy the current directory contents into the container at /app
-COPY  django-proj2 /app/
+COPY  proj2 /app/
 
 # Expose port 8000 to allow communication to/from the container
 EXPOSE 8000
