@@ -19,5 +19,5 @@ COPY  proj2 /app/
 EXPOSE 8000
 
 # Run the Django development server
-CMD ["python", "/app/proj2/manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "/app/manage.py", "runserver", "0.0.0.0:8000"]
 
